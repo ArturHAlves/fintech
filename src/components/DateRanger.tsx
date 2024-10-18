@@ -6,7 +6,7 @@ const DateRanger = () => {
   const [final, setFinal] = React.useState("");
   
   return (
-    <form onSubmit={(e) => e.preventDefault()}>
+    <form className="box" onSubmit={(e) => e.preventDefault()}>
       <DateInput
         label="Inicio"
         value={inicio}
