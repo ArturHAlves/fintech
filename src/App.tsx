@@ -1,4 +1,3 @@
-import DateRanger from "./components/DateRanger";
 import Header from "./components/Header";
 import Sidenav from "./components/Sidenav";
 import { DataContextProvider } from "./data/contexts/DataContext";
@@ -12,7 +11,6 @@ function App() {
         <Sidenav />
         <main>
           <Header />
-        <DateRanger />
           <Resume />
         </main>
       </div>

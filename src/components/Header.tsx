@@ -1,9 +1,13 @@
-import React from 'react'
+import DateRanger from "./DateRanger";
 
 const Header = () => {
   return (
-    <div>Header</div>
-  )
-}
+    <header>
+      <div>
+        <DateRanger />
+      </div>
+    </header>
+  );
+};
 
-export default Header
+export default Header;
