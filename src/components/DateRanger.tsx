@@ -4,10 +4,7 @@ import DateInput from "./DateInput";
 
 const DateRanger = () => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const { inicio, setInicio, final, setFinal, data } = React.useContext<IDataContext>(DataContext as any);
-
-  console.log('data', data);
-  
+  const { inicio, setInicio, final, setFinal } = React.useContext<IDataContext>(DataContext as any);
 
   return (
     <form className="box flex" onSubmit={(e) => e.preventDefault()}>

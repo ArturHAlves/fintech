@@ -25,8 +25,7 @@ function formatDate(date: Date) {
 
 export const MonthBtn = ({ numberMonth }: { numberMonth: number }) => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const { setInicio, setFinal } = React.useContext<IDataContext>(DataContext as any
-  );
+  const { setInicio, setFinal } = React.useContext<IDataContext>(DataContext as any);
 
   const setMonth = (n: number) => {
     const date = new Date();

@@ -1,6 +1,6 @@
 html {
   --color-1: #463220;
-  --color-2: #66593C;
+  --color-2: #66593c;
   --color-3: #eceadd;
   --color-4: #f7f8f5;
   --color-5: #ffffff;
@@ -27,7 +27,9 @@ button {
   cursor: pointer;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: bold;
   margin: 0px;
 }
@@ -75,4 +77,17 @@ ul {
   display: grid;
   padding: var(--gap);
   gap: var(--gap);
+}
+
+/* Resume Style */
+
+.resume {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.resume h2 {
+  font-size: 1.5rem;
+  margin-bottom: var(--gap);
+  color: var(--color-1);
 }
