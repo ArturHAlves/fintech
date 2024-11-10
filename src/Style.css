@@ -111,6 +111,15 @@ ul {
 }
 
 
+/* Loading */
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
 /* daterange  */
 
 .daterange {
