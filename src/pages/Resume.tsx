@@ -1,5 +1,6 @@
 import React from "react";
 import { DataContext, IDataContext } from "../data/contexts/DataContext";
+import { SalesChart } from "../components/SalesChart";
 
 const Resume = () => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -48,6 +49,9 @@ const Resume = () => {
               .toLocaleString("pt-br", { style: "currency", currency: "BRL" })}
           </span>
         </div>
+      </div>
+      <div className="box mb">
+        <SalesChart data={data} />
       </div>
     </section>
   );
